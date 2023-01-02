@@ -34,7 +34,7 @@ function PostElementForm(props) {
 
     return (
         <div>
-            <form onSubmit={(e)=> submit(e)}> 
+            <form onSubmit={(e)=> submit(e)}>  b
                 <input onChange={(e)=>handle(e)} id="titular" value={data.titular} placeholder="name" type="text"></input>
                 <input onChange={(e)=>handle(e)} id="descripcion" value={data.descripcion} placeholder="text" type="text"></input>
                 <input onChange={(e)=>handle(e)} id="tags" value={data.tags} placeholder="tags" type="text"></input>

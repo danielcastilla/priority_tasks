@@ -1,0 +1,39 @@
+[
+    {
+        "titular":"tarea 1",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. A asperiores recusandae, repellat excepturi commodi enim ducimus libero labore officia dicta soluta laborum velit quasi distinctio doloribus ipsum obcaecati omnis unde rem minus necessitatibus minima officiis! Officiis, architecto. Explicabo blanditiis ut voluptate iste nemo omnis voluptas quo, tempore velit voluptatem doloribus. In optio ex, cumque tempore, totam, sunt iusto ipsam ab magni accusantium quae atque voluptas hic incidunt vero dolore illo earum autem. Harum soluta illum labore repellendus placeat, aliquam reiciendis error nam ullam deserunt architecto aliquid quidem quaerat dolorem quibusdam autem suscipit et minus quod optio est, nulla provident? Incidunt.",
+        "tags":[
+                "tag1",
+                "tag2",
+                "tag3"
+        ],
+        "creado":"01-01-2023",
+        "actualizado":"03-01-2023",
+        "seguir":false
+    },
+    {
+        "titular":"tarea 2",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. A asperiores recusandae, repellat excepturi commodi enim ducimus libero labore officia dicta soluta laborum velit quasi distinctio doloribus ipsum obcaecati omnis unde rem minus necessitatibus minima officiis! Officiis, architecto. Explicabo blanditiis ut voluptate iste nemo omnis voluptas quo, tempore velit voluptatem doloribus. In optio ex, cumque tempore, totam, sunt iusto ipsam ab magni accusantium quae atque voluptas hic incidunt vero dolore illo earum autem. Harum soluta illum labore repellendus placeat, aliquam reiciendis error nam ullam deserunt architecto aliquid quidem quaerat dolorem quibusdam autem suscipit et minus quod optio est, nulla provident? Incidunt.",
+        "tags":[
+                "tag1",
+                "tag2",
+                "tag3"
+        ],
+        "creado":"01-01-2023",
+        "actualizado":"03-01-2023",
+        "seguir":false
+    },
+    {
+        "titular":"tarea 3",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. A asperiores recusandae, repellat excepturi commodi enim ducimus libero labore officia dicta soluta laborum velit quasi distinctio doloribus ipsum obcaecati omnis unde rem minus necessitatibus minima officiis! Officiis, architecto. Explicabo blanditiis ut voluptate iste nemo omnis voluptas quo, tempore velit voluptatem doloribus. In optio ex, cumque tempore, totam, sunt iusto ipsam ab magni accusantium quae atque voluptas hic incidunt vero dolore illo earum autem. Harum soluta illum labore repellendus placeat, aliquam reiciendis error nam ullam deserunt architecto aliquid quidem quaerat dolorem quibusdam autem suscipit et minus quod optio est, nulla provident? Incidunt.",
+        "tags":[
+                "tag1",
+                "tag2",
+                "tag3"
+        ],
+        "creado":"01-01-2023",
+        "actualizado":"03-01-2023",
+        "seguir":false
+    }
+
+]
