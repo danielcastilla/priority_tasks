@@ -9,7 +9,8 @@
         ],
         "creado":"01-01-2023",
         "actualizado":"03-01-2023",
-        "seguir":false
+        "seguir":false,
+        "autor":"autor1"
     },
     {
         "titular":"tarea 2",
@@ -21,7 +22,8 @@
         ],
         "creado":"01-01-2023",
         "actualizado":"03-01-2023",
-        "seguir":false
+        "seguir":false,
+        "autor":"autor2"
     },
     {
         "titular":"tarea 3",
@@ -33,7 +35,8 @@
         ],
         "creado":"01-01-2023",
         "actualizado":"03-01-2023",
-        "seguir":false
+        "seguir":false,
+        "autor":"autor3"
     }
 
 ]
