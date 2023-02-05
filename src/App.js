@@ -1,41 +1,26 @@
-import React, { Component } from "react";
-//import ListElements from './components/ListElements.js'
+import React, { useState, useEffect } from "react";
+import task from "./api/model/task";
+import "./App.css";
 
-class App extends Component{
-  render(){
-    return (
-      <div>
-        <nav className="navbar navbar-expand navbar-dark bg-dark">
-          <a href="/tasks" className="navbar-brand">
-            bezKoder
-          </a>
-          <div className="navbar-nav mr-auto">
-            <li className="nav-item">
-              <Link to={"/tasks"} className="nav-link">
-                Tutorials
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to={"/add"} className="nav-link">
-                Add
-              </Link>
-            </li>
-          </div>
-        </nav>
 
-        <div className="container mt-3">
-          <Routes>
-            <Route path="/" element={<TasksList/>} />
-            <Route path="/tasks" element={<TasksList/>} />
-            <Route path="/add" element={<AddTask/>} />
-            <Route path="/tasks/:id" element={<Task/>} />
-          </Routes>
-        </div>
-      </div>
+function App() {
+  const [data, setData] = useState("");
+  const tasks = [];
+  
+  useEffect(() => {
+    fetch("http://localhost:8080/api/tasks")
+      .then((response) => response.json())
+      .then((data) => setData(data));
 
-    );
-  }
+    }, []);
+
+  return (
+    <div className="App">
+      <h1>APP</h1>
+      {tasks.map(task => <li>{task}</li>)}
+            <p>{!data ? "Loading..." : data}</p>
+    </div>
+  );
 }
 
-
-export default App;
+export default App
